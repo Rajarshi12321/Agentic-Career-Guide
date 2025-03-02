@@ -7,9 +7,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0.1"
 
-REPO_NAME = "main_app_deploy"
+REPO_NAME = "Agentic-Career-Guide"
 AUTHOR_USER_NAME = "Rajarshi12321"
-SRC_REPO = "main_app_deploy"
+# SRC_REPO = REPO_NAME
+SRC_REPO = "agentic_career_guide"
 AUTHOR_EMAIL = "royrajarshi0123@gmail.com"
 
 
@@ -18,7 +19,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for game recommendation using RAG model",
+    description="An AI-powered mentor designed to simplify and support your journey in Generative AI learning, Resume preparation, Interview assistant and job hunting.",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

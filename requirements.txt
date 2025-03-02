@@ -1,17 +1,9 @@
-streamlit
-streamlit-feedback
-google-generativeai
+langchain==0.3.7 
+langchain-community==0.3.7 
+langchain_google_genai==2.0.4 
+duckduckgo_search==6.3.4 
+langgraph==0.2.48 
 python-dotenv
-langchain
-langsmith
-langchain_google_genai
-langchain_core
-langchain_community
-regex
-IPython
-pandas
-google-play-scraper
-beautifulsoup4
-faiss-cpu
+
 
 -e .
